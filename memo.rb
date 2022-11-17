@@ -13,7 +13,6 @@ ErrorMessage3 = "ファイルが見つかりませんでした。ファイル名
 puts FirstMessage
 
 InputInt = gets.to_i
-puts InputInt.class
 if InputInt = 1 then
 	puts NewMemoAnnouncement1
 	InputStringTitle1 = gets
