@@ -13,7 +13,7 @@ ErrorMessage3 = "ファイルが見つかりませんでした。ファイル名
 puts FirstMessage
 
 InputInt = gets.to_i
-if InputInt = 1 then
+if InputInt == 1 then
 	puts NewMemoAnnouncement1
 	InputStringTitle1 = gets
 	puts NewMemoAnnouncement2
@@ -22,7 +22,7 @@ if InputInt = 1 then
 	CSV.open(CsvTitle1, 'w') do |csv|
 	csv << ["#{InputStringContent1}"]
 	end
-elsif InputInt = 2
+elsif InputInt == 2
 	puts EditMemoAnnouncement1
 	InputStringTitle2 = gets
 	puts EditMemoAnnouncement2
