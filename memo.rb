@@ -19,8 +19,8 @@ if InputInt == 1 then
 
 	puts NewMemoAnnouncement2
 	InputStringContent1 = STDIN.read
+	CsvTitle1 = InputStringTitle1.chomp!+'.csv'
 	begin
-		CsvTitle1 = InputStringTitle1.chomp!+'.csv'
 		CSV.open(CsvTitle1, 'w') do |csv|
 		csv << [InputStringContent1]
 		end
