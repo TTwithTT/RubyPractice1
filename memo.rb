@@ -6,7 +6,6 @@ NewMemoAnnouncement2 = "メモしたい内容を記入してください\n完了
 EditMemoAnnouncement1 = "編集したい既存のファイル名を、拡張子は付けずに指定してください"
 EditMemoAnnouncement2 = "上書きする内容を記入してください\n完了したらCtrl+Dを押します"
 ErrorMessage1 = "半角数字の 1 または 2 で操作を指定ください"
-ErrorMessage2 = ".は使用できません"
 ErrorMessage3 = "ファイルが見つかりませんでした。ファイル名を確認してください ↓\n"
 ErrorMessage4 = "やり直してみてください"
 
